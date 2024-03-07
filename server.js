@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 5000;
 const mongoose = require('mongoose');
-const uri = "mongodb+srv://CollinC3:Collsta1$@test-for-full-stack.xmzfkxh.mongodb.net/?retryWrites=true&w=majority&appName=Test-for-Full-Stack";
+const uri = "" //Insert MongoDB link here
 const Product = require('./models/productModel');
 
 app.use(express.json());
